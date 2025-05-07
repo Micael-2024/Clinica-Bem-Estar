@@ -8,6 +8,7 @@ Para conseguir visualizar o projeto é necessário:
 1. Possuir VsCode instalado;
 
 Instruções: Baixe através do link: https://code.visualstudio.com/download
+
 Em seguida, abra a pasta do projeto;
 
 2. Ter a extensão "Live server";
