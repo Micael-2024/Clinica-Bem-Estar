@@ -13,6 +13,6 @@ Em seguida, abra a pasta do projeto;
 
 Instruções: Aperte o atalho (Ctrl+Shift+X), e pesquise "Live server". Instale e habilite em seu VsCode;
 
-Abra um projeto clicando em "Go Live";
+Abra o projeto clicando em "Go Live";
 ________________________________________________
 Informações sobre o projeto:
