@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    background:linear-gradient(to right, #195c9f, #489ab6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background:linear-gradient(to right, #1E90FF, #00BFFF);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    max-width: 150px;
+    height: auto;
+    display: block; /* Garante que a imagem não tenha espaçamento extra */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
