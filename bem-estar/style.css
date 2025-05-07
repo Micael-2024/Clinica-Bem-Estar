@@ -24,11 +24,51 @@ body {
 .logo-container img {
     max-width: 150px;
     height: auto;
-    display: block; /* Garante que a imagem não tenha espaçamento extra */
-    margin: 0 auto; /* Centraliza a imagem */
+    display: block; 
+    margin: 0 auto;  
 }
 
 h1 {
     color: #333;
     margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.password-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-input input[type="password"] {
+    width: calc(100% - 80px); 
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #777;
+    font-size: 14px;
 }
