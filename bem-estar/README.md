@@ -15,4 +15,7 @@ Instruções: Aperte o atalho (Ctrl+Shift+X), e pesquise "Live server". Instale 
 
 Abra o projeto clicando em "Go Live";
 ________________________________________________
-Informações sobre o projeto:
+# Informações sobre o projeto:
+Me chamo Micael, e meu projeto é a tela onde o cliente será capaz de realizar seu login, e caso não tenha conta, poderá fazer seu cadastro gratuitamente.
+
+E após o login, o cliente consegue agendar alguns tipos de exame, assim como escolher a data, horário e o tipo especifico de exame que ele quer realizar. E apertando em agendar gera um alerta de comando na tela, que mostra o agendamento realizado com sucesso.
