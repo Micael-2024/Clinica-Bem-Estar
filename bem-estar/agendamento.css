@@ -1,0 +1,15 @@
+#agendamentoForm {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#agendamentoForm .form-group {
+    margin-bottom: 15px;
+}
+
+#agendamentoForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
