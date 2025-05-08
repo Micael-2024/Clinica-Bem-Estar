@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Lógica para mostrar/ocultar senha na tela de login
     const toggleLoginPassword = document.getElementById('toggleLoginPassword');
     const loginSenhaInput = document.getElementById('loginSenha');
     const loginForm = document.getElementById('loginForm');
@@ -18,9 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = 'agendamento.html';
         });
     }
-});
 
-const toggleCadastroPassword = document.getElementById('toggleCadastroPassword');
+    const toggleCadastroPassword = document.getElementById('toggleCadastroPassword');
     const cadastroSenhaInput = document.getElementById('cadastroSenha');
 
     if (toggleCadastroPassword && cadastroSenhaInput) {
@@ -41,3 +39,17 @@ const toggleCadastroPassword = document.getElementById('toggleCadastroPassword')
             toggleConfirmarPassword.textContent = type === 'password' ? 'Mostrar' : 'Ocultar';
         });
     }
+
+    const agendamentoFormulario = document.getElementById('agendamentoForm');
+    if (agendamentoFormulario) {
+        agendamentoFormulario.addEventListener('submit', (event) => {
+            event.preventDefault();
+            const nomePaciente = document.getElementById('nomePaciente').value;
+            const dataExame = document.getElementById('dataExame').value;
+            const horaExame = document.getElementById('horaExame').value;
+            const tipoExame = document.getElementById('tipoExame').value;
+
+            alert(`Agendamento realizado!\nPaciente: ${nomePaciente}\nData: ${dataExame}\nHorário: ${horaExame}\nExame: ${tipoExame}`);
+        });
+    }
+});
