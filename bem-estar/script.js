@@ -19,3 +19,25 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+const toggleCadastroPassword = document.getElementById('toggleCadastroPassword');
+    const cadastroSenhaInput = document.getElementById('cadastroSenha');
+
+    if (toggleCadastroPassword && cadastroSenhaInput) {
+        toggleCadastroPassword.addEventListener('click', () => {
+            const type = cadastroSenhaInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            cadastroSenhaInput.setAttribute('type', type);
+            toggleCadastroPassword.textContent = type === 'password' ? 'Mostrar' : 'Ocultar';
+        });
+    }
+
+    const toggleConfirmarPassword = document.getElementById('toggleConfirmarPassword');
+    const confirmarSenhaInput = document.getElementById('confirmarSenha');
+
+    if (toggleConfirmarPassword && confirmarSenhaInput) {
+        toggleConfirmarPassword.addEventListener('click', () => {
+            const type = confirmarSenhaInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            confirmarSenhaInput.setAttribute('type', type);
+            toggleConfirmarPassword.textContent = type === 'password' ? 'Mostrar' : 'Ocultar';
+        });
+    }
