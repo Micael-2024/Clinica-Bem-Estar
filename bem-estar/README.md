@@ -1,6 +1,6 @@
 # Clínica Bem-Estar
 Atividade de Israel Cunha, unidade 2.
-*________________________________________________*
+
 # Para executar o projeto do GitHub no seu computador, você precisa clonar o repositório. Faça o seguinte:
 
 Para visualizar e executar este projeto no seu computador, siga os seguintes passos:
@@ -39,7 +39,6 @@ As páginas HTML referenciarão os arquivos CSS (.css) para o estilo e os arquiv
 Caso não consiga abrir ainda, vá no "index.html". Aperte o atalho (Ctrl+Shift+X), e pesquise "Live server". Instale e habilite em seu VsCode;
 Abra o projeto clicando em "Go Live";
 
-*________________________________________________*
 # Informações sobre o projeto:
 Me chamo Micael, e meu projeto é a tela onde o cliente será capaz de realizar seu login, e caso não tenha conta, poderá fazer seu cadastro gratuitamente.
 
